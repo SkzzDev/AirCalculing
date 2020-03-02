@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>PolygonTracing</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="assets/css/index.css" />
+		<script type="application/javascript" src="assets/js/jquery-3.3.1.min.js"></script>
+		<script type="application/javascript" src="assets/js/svg.min.js"></script>
+		<script type="application/javascript" src="assets/js/calculing.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="top">
+				<p class="points" id="points">
+					<b>Points:</b> <span class="value">0</span>
+				</p>
+                <p class="air" id="air">
+                    <b>Air:</b> <span class="value">0</span> px²
+                </p>
+                <p class="executionTime" id="executionTime">
+                    <b>Temps:</b> <span class="value">0</span> ms
+                </p>
+			</div>
+			<div id="drawing">
+				<div class="cursorPosition" id="cursorPosition">(<span class="x">0</span>;<span class="y">0</span>)</div>
+			</div>
+            <table>
+                <tbody>
+                <tr>
+                    <td>Points:</td>
+                    <td><input type="text" placeholder="Result" id="result" /></td>
+                </tr>
+                </tbody>
+            </table>
+		</div>
+		<script type="application/javascript" src="assets/js/index.js"></script>
+	</body>
+</html>
